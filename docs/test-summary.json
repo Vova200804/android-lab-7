@@ -1,0 +1,39 @@
+{
+  "author": "Солдатов Владимир Сергеевич",
+  "city": "Кемерово",
+  "date": "2026-11-06",
+  "device": "Android Emulator, Android 17, API 37",
+  "unit_tests": [
+    {
+      "module": "mycity",
+      "suite": "com.example.mycity.CityViewModelTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "instrumentation_tests": [
+    {
+      "module": "cupcake",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "module": "mycity",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "module": "reply",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "totals": {
+    "unit_tests": 2,
+    "instrumentation_tests": 20
+  }
+}
